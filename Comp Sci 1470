@@ -1,0 +1,18 @@
+# <iostream>
+# <cmath>
+int main() {
+   FirstX;
+   SecondX;
+   FirstY;
+   SecondX;
+   cin >> FirstX;
+   cin >> SecondX;
+   cin >> FirsrtY;
+   cin >> SecondY;
+ 
+   cout << "Distance Betweeen booth points is";
+   cout <<  sqrt( pow( (SecondX - FirstX), 2 ) + pow( (SecondY - FirstY), 2));
+   cout << endl;
+ 
+   return 0;
+}
