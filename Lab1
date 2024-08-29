@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+int main(){
+  int Sidea;
+  int sideb;
+  int sidec;
+  cout << "This is a calculator to find the area of triangles. Enter the length of side a";
+  cin >> Sidea;
+  cout << "Not the second side"
+  cin >> sideb;
+  cout << "Not the third and last side"
+  cin >> sidec;
+  cout << "For 15 bucks I will tell you the answer." << endl << "Pay?" << endl << "1 for yes" << "2 for no";
+  int pay;
+  if (pay == 1) {
+  cout << "Awesome! Smart choice! Here is the answer:" << endl;
+  double s =
+  cout << 
+  else {
+  cout << "Cheap ass go struggle then";
+  }
+}
