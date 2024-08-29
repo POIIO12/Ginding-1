@@ -1,0 +1,20 @@
+//homework1
+//calculating a radius
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   cout << "I am Bruno Rios!";
+   cout << " The most advanced math course I have taken was AP Calculus AB, but now I am taking college algebra because med school doesn't allow testing out of classes.";
+   cout << endl;
+   cout << "In my opinion computer scientists solve problems. That is to put it the simplest. We wanted to store data? We did it. We wanted to call people from far away? we did it. It is like math. Finding problems in life to solve.";
+   cout << endl;
+   cout << "I am personally interested in computer science because I want a work from home desk job that doesnt ask me for a lot of hours";
+   cout << "Something interesting about me is I have this fantasy of beating my professor in Jiu Jitsu for an A on his class";
+   cout << endl;
+   int radius;
+   cout << "enter a radius. now.";
+   cin >> radius;
+   cout << "The area of that circle is ";
+   cout << 3.14159 * (radius * radius);
+}
