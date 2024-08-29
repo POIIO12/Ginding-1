@@ -1,0 +1,22 @@
+int main() {
+
+   
+   int ageNum;
+   cin >> ageNum;
+   cout << "How old are you?" << endl;
+   cout << "You are old huh";
+   cout << ageNum;
+   if (ageNum >= 18){
+      cout << "You can vote!!";
+   }
+   else {
+      cout << "You cannot vote!!";
+   }
+   if (ageNum < 65 && ageNum < 10){
+      cout << "Congratulations";
+   }
+   if(10 < ageNum < 65){
+      cout << "RUN";
+   }
+   return 0;
+}
