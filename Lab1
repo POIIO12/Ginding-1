@@ -6,15 +6,15 @@ int main(){
   int c;
   cout << "This is a calculator to find the area of triangles. Enter the length of side a";
   cin >> a;
-  cout << "Now the second side"
+  cout << "Now the second side";
   cin >> b;
-  cout << "Now the third and last side"
+  cout << "Now the third and last side";
   cin >> c;
   cout << "For 15 bucks I will tell you the answer." << endl << "Pay?" << endl << "1 for yes" << "2 for no";
   int pay;
   if (pay == 1) {
   cout << "Awesome! Smart choice! Here is the answer:" << endl;
-  cout << sqrt(((a+b+c)/2)(((a+b+c)/2)-a)(((a+b+c)/2)-b)(((a+b+c)/2)-c))
+  cout << sqrt(((a+b+c)/2)*(((a+b+c)/2)-a)*(((a+b+c)/2)-b)*(((a+b+c)/2)-c));
   else {
   cout << "Cheap ass go struggle then";
   }
