@@ -1,16 +1,19 @@
 # <iostream>
 # <cmath>
 int main() {
-   FirstX;
-   SecondX;
-   FirstY;
-   SecondX;
+//introduce the variables
+   int FirstX;
+   int SecondX;
+   int FirstY;
+   int SecondX;
+//define the variable by asking for input
    cin >> FirstX;
    cin >> SecondX;
    cin >> FirsrtY;
    cin >> SecondY;
- 
+ //print the words
    cout << "Distance Betweeen booth points is";
+// print the distance equation using the defined variables
    cout <<  sqrt( pow( (SecondX - FirstX), 2 ) + pow( (SecondY - FirstY), 2));
    cout << endl;
  
