@@ -1,0 +1,40 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int hours;
+    string package;
+    cout << "What is your package? (gold, basic, or platinum)" << endl;
+    cin >> package;
+
+    if (package == "platinum") {
+        cout << "So how many hours this month?" << endl;
+        cin >> hours;
+        cout << "As always, it is only $19.95 this month";
+    }
+    else if (package == "gold") {
+        cout << "So how many hours this month?" << endl;
+        cin >> hours;
+        if (hours > 20) {
+            double total = 14.95 + (hours - 20);
+            cout << "Your total is $" << total;
+        }
+        else {
+            cout << "Your total is $14.95";
+        }
+    }
+    else if (package == "basic") {
+        cout << "So how many hours this month?" << endl;
+        cin >> hours;
+        if (hours > 10) {
+            double total = 9.95 + ((hours - 20) * 2);
+            cout << "Your total is $" << total;
+        }
+        else {
+            cout << "Your total is $9.95";
+        }
+    }
+
+    return 0;
+}
