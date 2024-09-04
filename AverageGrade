@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int s1;
+    int s2;
+    int s3;
+    char letterGrade;
+    string average;
+    cout << "What was the first score?";
+    cin >> s1;
+    cout << "and the second one?";
+    cin >> s2;
+    cout << "now the third";
+    cin >> s3;
+    average = (s1 + s2 + s3)/3;
+    if (average >= 90){
+        // we gonna do a charr variable appearently i dont get why tho
+        letterGrade = 'A';
+    }
+    // it has to be if else chain that way it will give us all the ifs not just the last one
+    else if (average >= 80){
+        letterGrade = 'B';
+    }
+    else if (average >= 70){
+        letterGrade = 'C';
+    }
+    else {
+        letterGrade = 'F';
+    }
+    cout << "Your letter grade is " << letterGrade;
+    return 0;
+}
