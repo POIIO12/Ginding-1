@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout << "So what's the countdown?" << endl;
+    cin >> num;
+    while (num != 0){
+        cout << num << endl;
+        num = num - 1;
+    }
+    cout << "Blast Off!!";
+
+    return 0;
+}
