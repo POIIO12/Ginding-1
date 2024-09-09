@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <iostream>
+#include <string>
+using namespace std;
+//ask for user name in lower case and print backwards but vertically and upper case
+int main()
+{
+    int rows;
+    int colums;
+    cout << "Enter rows " << endl;
+    cin >> rows;
+    cout << "Okay now colums " << endl;
+    cin >> colums;
+    for (int i = 0; i < rows; i++){
+        for (int i = 0; i < colums; i++){
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
