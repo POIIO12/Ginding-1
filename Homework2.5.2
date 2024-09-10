@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main{
+    
+    char c;
+    string name;
+    cout << "what is ur name please enter all lower case" << endl;
+    cin >> name;
+    for (int i = 0; i < name.length(); i++){
+        char capital = name[i] - 32;
+        cout << capital << endl;
+    }
+return 0;
+}
