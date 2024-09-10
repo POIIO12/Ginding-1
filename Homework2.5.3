@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int start = 0;
+    int end;
+
+    cout << "Enter the limit of the range to find prime numbers ";
+    cin >> end;
+    int limit = start;
+    while (limit <= end) {
+        if (limit < 2) {
+            limit++; 
+            continue;
+        }
+
+        int num = 2;
+        int numFactors = 0;
+
+        while (num <= limit / 2) {
+            if (limit % num == 0) {
+                numFactors++;
+                break;
+            }
+            num++;
+        }
+        if (numFactors == 0) {
+            cout << limit << " is prime." << endl;
+        }
+
+        limit++; 
+    }
+
+    return 0;
+}
