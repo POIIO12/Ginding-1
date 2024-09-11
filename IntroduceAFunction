@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+void printBanner(){
+  cout << "******************" << endl;
+  cout << "welcome to class!!" << endl;
+  cout << "*******************" << endl;
+
+}
+int main(){
+  printBanner();
+  cout << "******************" << endl;
+  cout << "welcome to class!!" << endl;
+  cout << "*******************" << endl;
+
+  printBanner();
+  return 0;
+}
