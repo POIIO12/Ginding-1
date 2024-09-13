@@ -1,12 +1,37 @@
 #include <iostream>
 #include <string>
 using namespace std;
+// void functions do stuff. Dont return anything. This one prints banner.
 void printBanner(){
   cout << "******************" << endl;
   cout << "welcome to class!!" << endl;
   cout << "*******************" << endl;
-
 }
+//Functions can take parameter inputs
+void PersonalBanner(string name){
+  cout << "*************************" << endl;
+  cout << "Hi" << name << endl;
+  cout << "This is your presonaloized banner" << endl;
+}
+void Birthday(string name, int birthday){
+  cout << "Happy " << birthday << name;
+}
+//functions can return values
+//this function computes the product of x and y and returns that product
+double product(double x, double y)
+{
+  double answer;
+  amnswer x * y;
+  return answer;
+}
+
+int product(int x){
+  int c = 1;
+  for(int i; i <= n; i = i + 1){
+    c = c * i;
+}
+}
+
 int main(){
   printBanner();
   cout << "******************" << endl;
@@ -14,5 +39,31 @@ int main(){
   cout << "*******************" << endl;
 
   printBanner();
+
+  PersonalBanner("Bruno");
+  PersonalBanner("Amanda");
+
+//make a birthday benner
+  string name;
+  int age;
+  cout << "NAme and b-day?" << endl;
+  cin >> name;
+  cin >> age;
+  Birthday(name, age);
+
+  //functions that return values
+  int a = 5;
+  int b = 7;
+  int answer;
+  answer = product(a, b);
+  cout << "the pdoruct of" << a << "and" << b << "is" << answer << endl;
+  cout << "product of 35 and 71 << product(35, 71) << endl;
+
+
+//let's solve quiz
+  int n;
+  cout << ":enter a number" << endl;
+  cin >> n;
+  cout << "answer is" << factorial(n);
   return 0;
 }
