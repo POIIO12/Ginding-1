@@ -1,0 +1,41 @@
+double maxValue(double a, double b, double c) {
+    if (a >= b && a >= c) return a;
+    if (b >= a && b >= c) return b;
+    return c;
+}
+double minValue(doublea, double b, double c){
+    if (a <= b && a <= c) return a;
+    if (b <= a && b <= c) return b;
+    return c;
+}
+bool isEven(int a){
+    if(a % 2 == 0) return a;
+}
+bool isOdd(int a){
+    if(a % 2 != 0) return a;
+}
+bool isPrime(int a){
+    for(int i = 2; i <= n; i++){
+        if(a % i == 0) return a;
+    }
+}
+double add(double a, double b){
+    double b;
+    b = a+b;
+    return b;
+}
+double multiply(double a, double b){
+    double b;
+    b = a*b;
+    return b;
+}
+double sum(int a, int b){
+    int c;
+    c = a;
+    int d;
+    d = 0;
+    for(; c <= b; c++){
+        d = d + c;
+    }
+    return d;
+}
