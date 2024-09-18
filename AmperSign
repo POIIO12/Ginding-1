@@ -1,0 +1,34 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <string>
+#include <ctime>
+#include <iostream>
+using namespace std;
+//amper sign & makes two variables the same,like setting them to equal.
+void multiplyBy(int &x, int y){
+    x = x*y;
+    y = -9999;
+    //variables only exists in this scope. Scope of variables is very important.
+}
+void increaseBy(int &z, int b){
+    z += 21;
+}
+int main()
+{
+    int x = 5;
+    int y = 10;
+    multiplyBy(x, y);
+    cout << x << y;
+    int z = 53
+    increaseBy(z, 21);
+    cout << z;
+    increaseBy(z, 5);// should be 79
+    cout << z;
+    return 0;
+}
